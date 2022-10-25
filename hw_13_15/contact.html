@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <title>Online CV - Huiswerk</title>
+  <meta name="Huiswerk opdracht" content="Diverse onderdelen om met CSS te oefenen">
+  <meta name="author" content="Priscilla">
+  <meta name="keywords:" content="Jobhunting">
+  <link rel="stylesheet" type="text/css" href="huiswerk_wd_13_15_style.css"> <!-- Link naar CSS stylesheet -->
+</head>
+<body><header><h3>Laat gerust je gegevens achter of neem contact op met mij.</h3> <!--Pagina met contactinformatie -->
+  <ul> <!-- Navigatie menu -->
+  <li><a href="index.html">Home</a></li>
+  <li><a href="mijncv.html">Mijn CV</a></li>
+  <li><a href="contact.html">Contactformulier</a></li>
+  </ul></header>
+  <p>Stel je vragen via het onderstaande contactformulier en je ontvangt binnen 1 werkdag een reactie van mij.<br>
+  </p>
+  <div>
+    <form id="contactform" action="https://formspree.io/f/moqbwpry" method="post"><u>Contactformulier</u><br><br>
+      <label for="Vnaam">Voornaam: </label>
+      <input type="text" id="Vnaam" name="Voornaam">
+      <label for="Achternaam">Achternaam: </label>
+      <input type="text" id="Achternaam" name="Achternaam">
+      <label for="Telefoonnummer">Telefoonnummer: </label>
+      <input type="tel" id="Telefoonnummer" name="Telefoonnummer">
+      <label for="email">Emailadres:</label>
+      <input type="email" id="email" name="Email">
+      <label for="tekst">Bericht aan mij:</label>
+      <textarea id="tekst" maxlength="2000"></textarea>
+      <button id="verzendknop" type="submit" name="verzendknop">
+        <strong>Verzend</strong>
+        </button>
+    </form>
+  </div>
+  <p>Liever contact opnemen wanneer het jou uitkomt? Dat kan!<br><br> <!-- Mijn fake contactgegevens -->
+    <a class="CG" href="tel:06123456789">Bellen</a><br>
+    <a class="CG" href="https://wa.me/316123456789">What's App</a><br>
+    <a class="CG" href="mailto:priscilla@nepemail.com">Email</a><br>
+  </p>
+  <footer><p>&copy; Copyright 2022 By Priscilla -- See more @ <a href="https://github.com/Styx05">Github</a></p></footer> <!-- Footer met copywright vermelding en link-->
+</body>
+</html>
